@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_futbol"
+            android:icon="@mipmap/variante_de_balon_de_futbol"
+            android:title="@string/menu_futbol" />
+        <item
+            android:id="@+id/nav_voley"
+            android:icon="@mipmap/voleyball"
+            android:title="@string/menu_voley" />
+        <item
+            android:id="@+id/nav_basket"
+            android:icon="@mipmap/basketball_ball_variant"
+            android:title="@string/menu_basquet" />
+
+        <item
+            android:id="@+id/nav_locales"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="@string/menu_locales" />
+    </group>
+</menu>

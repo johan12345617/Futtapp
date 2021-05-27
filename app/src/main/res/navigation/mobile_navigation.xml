@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_futbol">
+
+    <fragment
+        android:id="@+id/nav_futbol"
+        android:name="com.example.futtapp.Activity.ui.Futbol.FutbolFragment"
+        tools:layout="@layout/layout_chat" />
+
+    <fragment
+        android:id="@+id/nav_voley"
+        android:name="com.example.futtapp.Activity.ui.Voley.VoleyFragment"
+        tools:layout="@layout/layout_chat" />
+
+    <fragment
+        android:id="@+id/nav_basket"
+        android:name="com.example.futtapp.Activity.ui.Basquet.BasquetFragment"
+        tools:layout="@layout/layout_chat" />
+
+    <fragment
+        android:id="@+id/nav_locales"
+        android:name="com.example.futtapp.Activity.ui.Locales.LocalesFragment"
+        tools:layout="@layout/locales_fragment"/>
+
+</navigation>
